@@ -15,5 +15,5 @@ activity = True
 try:
     while activity:
         print(next(y))
-except StopIteration as ex:
+except StopIteration:
     activity = False
